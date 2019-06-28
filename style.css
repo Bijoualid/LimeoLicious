@@ -1,0 +1,255 @@
+body
+{
+	background: #ACADAD;
+}
+
+
+#bloc_page
+{
+	width: 950px;
+	margin: auto;
+}
+
+
+header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+header h1
+{
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 1.8em;
+}
+
+
+nav
+{
+	background-color: #222526;
+	height: 46px;
+	border-radius: 10px;
+}
+
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+}
+
+
+nav li
+{
+	margin-right: 100px;
+}
+
+
+nav a
+{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #B7E012;
+	text-decoration: none;
+}
+
+
+#banniere_image
+{
+	background: url("images/introimage.png") no-repeat right, url("images/introbg.png") repeat-x;
+	height: 220px;
+	margin-top: 8px;
+	border-radius: 25px;
+	color: white;
+	font-family: Helvetica;
+	font-size: 0.9em;
+}
+
+
+#banniere_description
+{
+	margin-left: 40px;
+	margin-top: 45px;
+}
+
+
+#banniere_description h1
+{
+	font-size: 1.6em;
+}
+
+
+#banniere_description p
+{
+	padding-top: 10px;
+}
+
+
+section
+{
+	display: flex;
+}
+
+
+article
+{
+	background-color: #E4EBED;
+	border-radius: 25px;
+	margin-top: 8px;
+	margin-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	flex: 3;
+}
+
+
+article h1
+{
+	font-family: Verdana;
+	font-size: 1.3em;
+}
+
+
+article p
+{
+	font-family: Verdana;
+	font-size: 0.9em;
+}
+
+
+.float
+{
+	float: left;
+	padding-right: 8px;
+}
+
+
+.flottant
+{
+	float: right;
+}
+
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	flex: 1.4;
+}
+
+
+#categories
+{
+	background-color: #E4EBED;
+	border-radius: 25px;
+	margin-top: 8px;
+}
+
+
+#categories h1
+{
+	font-family: Verdana;
+	font-size: 1em;
+	margin-left: 18px;
+}
+
+
+#categories a
+{
+	color: #181818;
+	text-decoration: none;
+}
+
+
+#sponsors
+{
+	background-color: #E4EBED;
+	border-radius: 25px;
+	margin-top: 8px;
+}
+
+
+#sponsors h1
+{
+	font-family: Verdana;
+	font-size: 1em;
+	margin-left: 18px;
+}
+
+
+#sponsors p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+#connected
+{
+	background-color: #E4EBED;
+	border-radius: 25px;
+	margin-top: 8px;
+}
+
+
+#connected h1
+{
+	font-family: Verdana;
+	font-size: 1em;
+	margin-left: 18px;
+}
+
+
+#connected a
+{
+	color: #181818;
+	text-decoration: none;
+}
+
+
+#articles
+{
+	background-color: #E4EBED;
+	border-radius: 25px;
+	margin-top: 8px;
+}
+
+
+#articles h1
+{
+	font-family: Verdana;
+	font-size: 1em;
+	margin-left: 18px;
+}
+
+
+#articles a
+{
+	color: #181818;
+	text-decoration: none;
+}
+
+
+footer
+{
+	background-color: #222526;
+	height: 60px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+footer p
+{
+	position: absolute;
+	right: 5px;
+	bottom: 4px;
+	font-size: 0.8em;
+}
